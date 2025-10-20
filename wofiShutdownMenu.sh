@@ -1,4 +1,4 @@
-choice=$(echo -e "Shutdown\n Reboot\n Lock\n Suspend\n Logout" | wofi --dmenu --prompt "Power Menu:")
+choice=$(echo -e "Shutdown\nReboot\nLock\nSuspend\nLogout" | wofi --dmenu --prompt "Power Menu:")
 
 case "$choice" in
     "Shutdown") systemctl poweroff ;;
