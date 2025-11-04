@@ -59,9 +59,14 @@ play = [
 bambuStudio = [
     { run = 'bambu-studio "$@"', desc = "BambuStudio", for = "linux" }
 ]
+reaper = [
+	{ run = 'reaper "$@"', desc = "Reaper", for = "linux" }
+]
 
 [open]
 rules = [
+	#Reaper files
+	{ name = "*.rpp", use = [ "reaper" ]},
     # BambuStudio files
     { name = "*.3mf", use = [ "bambuStudio" ]},
 	# Folder
