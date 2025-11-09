@@ -24,3 +24,6 @@ cp -a dunst/. $CONFIG_DIR/dunst
 
 echo "Copy rofi $CONFIG_DIR"
 cp -a rofi/. $CONFIG_DIR/rofi
+
+echo "Copy zsh $HOME"
+cp zsh/.zshrc $HOME

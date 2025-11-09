@@ -1,6 +1,6 @@
 #Install all dependencies
 echo "Installing all dependencies"
-sudo pacman -Syu --needed hyprland hyprlock hyprpaper hypridle waybar ly alacritty kitty wofi rofi yazi git telegram-desktop discord firefox
+sudo pacman -Syu --needed hyprland hyprlock hyprpaper hypridle waybar ly alacritty kitty wofi rofi yazi git telegram-desktop discord firefox eza dunst
 
 #Installing Paru
 git clone https://aur.archlinux.org/paru.git
