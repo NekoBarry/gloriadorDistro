@@ -28,5 +28,8 @@ cp -a rofi/. $CONFIG_DIR/rofi
 echo "Copy zsh $HOME"
 cp zsh/.zshrc $HOME
 
+echo "Copy starship $CONFIG_DIR"
+cp zsh/starship.toml $CONFIG_DIR
+
 echo "Copy wallpaper $HOME"
 cp -a wallpaper/. $HOME/wallpaper
