@@ -62,7 +62,8 @@
   "memory": {
     "interval": 5,
     "format": "󰍛 {}%",
-    "max-length": 10
+    "max-length": 10,
+    "on-click" : "xdg-terminal-exec -e btop"
   },
   "tray": {
     "spacing": 10
@@ -87,8 +88,7 @@
     "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "~/.config/rofi/wifi/wifi.sh &",
-    "on-click-right": "~/.config/rofi/wifi/wifinew.sh &",
+    "on-click": "xdg-terminal-exec -e impala",
     "interval": 5,
     "nospacing": 1
   },
