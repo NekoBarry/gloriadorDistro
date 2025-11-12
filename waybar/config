@@ -107,7 +107,8 @@
       ]
     },
     "on-click": "pamixer -t",
-    "scroll-step": 1
+    "on-click-right": "xdg-terminal-exec -e wiremix",
+    "scroll-step": 5
   },
   "custom/logo": {
     "format": "  ",

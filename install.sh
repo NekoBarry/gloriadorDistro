@@ -1,6 +1,11 @@
 #Install all dependencies
 echo "Installing all dependencies"
-sudo pacman -Syu --needed hyprland hyprlock hyprpaper hypridle waybar ly alacritty kitty wofi rofi yazi git telegram-desktop discord firefox eza dunst fastfetch starship
+pkg_hypr="hyprland hyprlock hyprpaper hypridle waybar ly"
+pkg_term="alacritty kitty wofi rofi yazi lazygit lazydocker git starship zsh"
+pkg_quality="eza dunst fastfetch wiremix"
+pkg_network="discord telegram-desktop firefox"
+
+sudo pacman -Syu --needed $pkg_hypr $pkg_term $pkg_quality $pkg_network
 
 #Installing Paru
 git clone https://aur.archlinux.org/paru.git
@@ -10,7 +15,7 @@ cd ..
 rm -rf paru
 
 #Installing Paru dependend packages
-paru -S --needed hyprnotify elecwhat 
+paru -S --needed hyprnotify elecwhat xdg-terminal-exec
 
 #Copy config files
 sh copyConfig.sh
