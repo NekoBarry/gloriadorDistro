@@ -24,7 +24,7 @@
     "on-click": "activate",
     "on-click-right": "fullscreen",
     "icon-theme": "WhiteSur",
-    "icon-size": 25,
+    "icon-size": 18,
     "tooltip-format": "{title}"
   },
   "hyprland/workspaces": {
@@ -113,7 +113,7 @@
   "custom/logo": {
     "format": "  ",
     "tooltip": false,
-    "on-click": "~/.config/rofi/launchers/misc/launcher.sh &"
+    "on-click": "wofi --show drun --allow-images --prompt 'Search application'"
   },
   "battery": {
     "format": "{capacity}% {icon}",
