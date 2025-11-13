@@ -16,6 +16,19 @@ window#waybar.hidden {
   opacity: 0.5;
 }
 
+#taskbar button {
+  border-radius: 10;
+  padding: 3px 9px;
+  margin: 3px 1.5px;
+}
+
+#taskbar button:hover {
+  box-shadow: inherit;
+  text-shadow: inherit;
+  color: #1e1e2e;
+  background-color: #9ec2f8;
+}
+
 #workspaces {
   background-color: transparent;
 }
@@ -34,7 +47,8 @@ window#waybar.hidden {
   color: black;
 }
 
-#workspaces button.active {
+#workspaces button.active,
+#taskbar button.active {
   color: #1e1e2e;
   background-color: #cdd6f4;
 }
@@ -58,10 +72,10 @@ window#waybar.hidden {
 #network,
 #clock,
 #tray {
-  border-radius: 4px;
+  border-radius: 10;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #1e1e2e;
+  background-color: #9ec2f8;
   color: #181825;
 }
 
