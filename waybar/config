@@ -63,7 +63,7 @@
     "interval": 5,
     "format": "󰍛 {}%",
     "max-length": 10,
-    "on-click" : "xdg-terminal-exec -e btop"
+    "on-click" : "alacritty -e btop"
   },
   "tray": {
     "spacing": 10
@@ -88,7 +88,7 @@
     "tooltip-format-wifi": "{icon} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
-    "on-click": "xdg-terminal-exec -e impala",
+    "on-click": "nm-connection-editor",
     "interval": 5,
     "nospacing": 1
   },
@@ -107,7 +107,7 @@
       ]
     },
     "on-click": "pamixer -t",
-    "on-click-right": "xdg-terminal-exec -e wiremix",
+    "on-click-right": "alacritty -e wiremix",
     "scroll-step": 5
   },
   "custom/logo": {

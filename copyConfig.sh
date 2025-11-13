@@ -7,6 +7,9 @@ fi
 echo "Copy alacritty $CONFIG_DIR"
 cp -a alacritty/. $CONFIG_DIR/alacritty
 
+echo "Copy kitty $CONFIG_DIR"
+cp -a kitty/. $CONFIG_DIR/kitty
+
 echo "Copy hypr $CONFIG_DIR"
 cp -a hypr/. $CONFIG_DIR/hypr
 
