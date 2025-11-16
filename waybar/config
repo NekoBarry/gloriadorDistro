@@ -71,7 +71,7 @@
   "clock": {
     "tooltip-format": "{calendar}",
     "format-alt": "  {:%a, %d %b %Y}",
-    "format": "  {:%I:%M %p}"
+    "format": "  {:%T}"
   },
   "network": {
     "format-wifi": "{icon}",
